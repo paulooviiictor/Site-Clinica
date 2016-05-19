@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Documento sem t&iacute;tulo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/ddsmoothmenu.js"></script>
+<link href="estilo.css" rel="stylesheet" type="text/css">
+</head>
+
+<script type="text/javascript">
+
+ddsmoothmenu.init({
+	mainmenuid: "templatemo_menu", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	//customtheme: ["#1c5a80", "#18374a"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+}
+
+</script>
+
+<body>
+
+<object data="VT%20CLININCA%20SANTA%20MARIA%2020%20S%20Def%20(1).mp4" type="video/mp4" />
+<div id="templatemo_menu" class="ddsmoothmenu"> 
+  <ul>
+    <li><a href="index.html" class="selected">Home</a></li>
+    <li><a href="products.html">Produtos</a> 
+      <ul>
+        <li><a href="#" rel="nofollow">Rações</a></li>
+        <li><a href="#" rel="nofollow">Roupas</a></li>
+        <li><a href="#" rel="nofollow">Brinquedos</a></li>
+        <li><a href="#" rel="nofollow">Remédios</a></li>
+        <li><a href="#" rel="nofollow">Banho e tosa</a></li>
+      </ul>
+    </li>
+    <li><a href="checkout.html">Serviços Médicos</a></li>
+    <li><a href="checkout.html">Cadastro</a></li>
+    <li><a href="contact.html">Contatos</a></li>
+    <li><a href="faqs.html">Dúvidas</a></li>
+    <li><a href="about.html">Quem Somos</a></li>
+  </ul>
+  <br style="clear: left" />
+</div>
+</body>
+</html>
